@@ -1,0 +1,20 @@
+.header{
+    background-color: var(--headerBg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 30px;
+    box-shadow: 0px 3px 4px 1px rgba(0,0,0,0.2);
+    a{
+        color: var(--fontColor);
+        font-weight: 600;
+        font-style: italic;
+        // margin: 0 40px;
+    &:last-child{
+        &:hover{
+        cursor: not-allowed;
+    }}
+    }
+
+}
