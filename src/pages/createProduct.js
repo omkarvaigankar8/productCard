@@ -5,7 +5,7 @@ import { fetchData, submitData } from "../api";
 import Form from "../components/Form";
 import Dropdown from "../components/Form/Dropdown";
 import TextInput from "../components/Form/TextInput";
-import Header from "../components/Header";
+import Header from "../components/UIKit/Header";
 import Loader from "../components/UIKit/Loader";
 
 export default function CreateProduct() {

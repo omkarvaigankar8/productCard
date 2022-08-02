@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { fetchData } from '../api'
 import { useParams } from 'react-router-dom';
-import Header from '../components/Header';
+import Header from '../components/UIKit/Header';
 import Loader from '../components/UIKit/Loader';
 const Product = (props) => {
   const { id } = useParams();

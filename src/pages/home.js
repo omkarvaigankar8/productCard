@@ -4,7 +4,7 @@ import '../App.scss';
 import ProductCard from '../components/Card/ProductCard';
 import Form from '../components/Form';
 import Dropdown from '../components/Form/Dropdown';
-import Header from '../components/Header';
+import Header from '../components/UIKit/Header';
 import { FormProvider, useForm } from 'react-hook-form';
 import { Link } from 'react-router-dom';
 import Loader from '../components/UIKit/Loader';
