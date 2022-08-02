@@ -29,6 +29,7 @@ function App() {
       setCategories(data.data.categories)
 
     }, 'categories')
+    setLoading(false)
   }, [])
   const filteredProductsHandler = (value) => {
     let content = products;
