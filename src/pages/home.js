@@ -19,17 +19,16 @@ function App() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 1000)
+    }, 2000)
     fetchData((data) => {
       setProducts(data.data.products)
       setFilteredProducts(data.data.products)
-
+      setLoading(false)
     }, 'products')
     fetchData((data) => {
       setCategories(data.data.categories)
-
+      setLoading(false)
     }, 'categories')
-    setLoading(false)
   }, [])
   const filteredProductsHandler = (value) => {
     let content = products;
