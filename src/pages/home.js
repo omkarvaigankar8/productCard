@@ -27,7 +27,6 @@ function App() {
     }, 'products')
     fetchData((data) => {
       setCategories(data.data.categories)
-      setLoading(false)
     }, 'categories')
   }, [])
   const filteredProductsHandler = (value) => {
